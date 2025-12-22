@@ -1,4 +1,3 @@
-import polar_sdk
 from os import getenv
 from fastapi import FastAPI
 from polar_sdk import Polar
@@ -17,7 +16,7 @@ def open_checkout(amount: int):
     checkoutSession = polar.checkouts.create(request={
         "products": [product_id],
         "prices": {
-            [product_id]: [
+            product_id: [
                 {
                     "price_amount": amount,
                     "amount_type": "fixed",
