@@ -1,6 +1,5 @@
 {
   "name": "with-angular",
-  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,7 +20,6 @@
       }
     ]
   },
-  "private": true,
   "packageManager": "npm@11.3.0",
   "dependencies": {
     "@angular/common": "^21.0.0",
